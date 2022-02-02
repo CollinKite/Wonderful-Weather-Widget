@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #262626;
+}
+input {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 7px;
+}
+.ex {
+    color: darkgray;
+    margin-bottom: 2px;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 200px;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+    }
+    
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        padding: 10px;
+        list-style: none;
+    }
+    
+    a{
+        color: black;
+    }
+
+    li{
+        padding: 10px;
+    }
+    
+    h1, p{
+        padding: 10px 10px 10px 20px;
+        font-size: 1.5  rem;
+    }
+    
+    p {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    a:hover{
+        color: black;
+    }
+
+    .today{
+        margin-top: 10px;
+    }
+    #weatherTile{
+        background-color: #262626; 
+    }
+
